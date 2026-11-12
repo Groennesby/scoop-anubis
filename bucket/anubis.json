@@ -1,0 +1,17 @@
+{
+  "version": "1.3.0",
+  "description": "Anubis AI Agent and Local LLM Sovereign Engine (GUI + Hermes CLI, GGUF/MLX, 0% Censorship)",
+  "homepage": "https://github.com/Groennesby/Anubis-Agent",
+  "license": "MIT",
+  "url": "https://github.com/Groennesby/Anubis-Agent/releases/download/v1.3.0/anubis-windows-amd64.zip",
+  "hash": "00b64d4e567756c3b0e62bf3f9bf9aa6f83da3bc0f36ff2c6a74b490c93f9f4b",
+  "bin": [
+    "anubis.exe",
+    "anubis-gui.exe",
+    "anubis-core.exe"
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://github.com/Groennesby/Anubis-Agent/releases/download/v$version/anubis-windows-amd64.zip"
+  }
+}

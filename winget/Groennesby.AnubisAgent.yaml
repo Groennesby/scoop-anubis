@@ -1,0 +1,29 @@
+PackageIdentifier: Groennesby.AnubisAgent
+PackageVersion: 1.3.0
+PackageLocale: en-US
+Publisher: Collabs Software (Dave Groennesby)
+PackageName: Anubis AI Agent
+License: MIT
+ShortDescription: Anubis AI Agent and Local LLM Sovereign Engine (GUI + Hermes CLI)
+Moniker: anubis
+Tags:
+  - ai-agent
+  - llm
+  - local-llm
+  - anubis
+  - ollama
+  - gguf
+  - autonomous-agent
+Installers:
+  - Architecture: x64
+    InstallerType: zip
+    NestedInstallerType: portable
+    NestedInstallerFiles:
+      - RelativeFilePath: anubis.exe
+        PortableCommandAlias: anubis
+      - RelativeFilePath: anubis-gui.exe
+        PortableCommandAlias: anubis-gui
+    InstallerUrl: https://github.com/Groennesby/Anubis-Agent/releases/download/v1.3.0/anubis-windows-amd64.zip
+    InstallerSha256: 00b64d4e567756c3b0e62bf3f9bf9aa6f83da3bc0f36ff2c6a74b490c93f9f4b
+ManifestType: singleton
+ManifestVersion: 1.6.0
